@@ -1,0 +1,52 @@
+.expenses-panel__column-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.expenses-panel__column {
+  height: 80px;
+  width: 24px;
+  border-radius: 12px;
+  background-color: rgb(20, 127, 177, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: relative;
+}
+
+.expenses-panel__column-overflow {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 12px;
+}
+
+.expenses-panel__column-fill {
+  background: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.expenses-panel__column-fill-shadow {
+  background: white;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 10px #88C8FF,
+    0 0 45px #88C8FF, 0 0 55px #88C8FF, 0 0 70px #88C8FF, 0 0 80px #88C8FF;
+    position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.expenses-panel__month {
+  color: white;
+}
+.expenses-panel__amount {
+  color: white;
+}

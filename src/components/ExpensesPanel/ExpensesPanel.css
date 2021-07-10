@@ -1,0 +1,43 @@
+.expenses-panel__header {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.expenses-panel__total-amount {
+  color: white;
+  font-size: 40px;
+}
+
+.expenses-panel__filter select {
+  font-size: 40px;
+}
+
+@media (max-width: 600px) {
+  .expenses-panel__total-amount {
+    font-size: 28px;
+  }
+
+  .expenses-panel__filter select {
+    font-size: 32px;
+  }
+}
+
+.expenses-panel__columns {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 8px;
+}
+
+@media (max-width: 600px) {
+  .expenses-panel__columns {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+@media (max-width: 400px) {
+  .expenses-panel__columns {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

@@ -10,13 +10,68 @@ html {
 
 body {
   margin: 0;
-  background-image: url('./assets/bg2.png');
+  background-image: url('./assets/bg.png');
   background-size: cover;
+  overflow-x: hidden;
 }
 
 .container {
   max-width: 1000px;
+  width: 100%;
   margin: 0 auto;
   min-height: 100vh;
 }
 
+input,
+select {
+  font-size: 1rem;
+  color: white;
+  background: none;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+select {
+  cursor: pointer;
+}
+
+option {
+  color: black;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+@media (min-width: 580px) {
+  input {
+    font-size: 1.25rem;
+  }
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+button:focus,
+button:active {
+  outline: none;
+}
+
+button svg {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}

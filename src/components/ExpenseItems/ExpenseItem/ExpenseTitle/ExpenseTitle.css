@@ -1,0 +1,19 @@
+.expense-item__title {
+  margin: 0 2rem;
+  margin-right: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+.expense-item__title span {
+  color: white;
+  font-size: 24px;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 4px #88c8ff, 0 0 10px #88c8ff,
+    0 0 14px #88c8ff, 0 0 35px #88c8ff, 0 0 40px #88c8ff;
+}
+
+@media (max-width: 600px) {
+  .expense-item__title span {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,27 @@
+.expense-item__price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(
+    -65deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(136, 200, 255, 0.3)
+  );
+  backdrop-filter: blur(5px);
+  padding: 0.5rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-align: center;
+  display: flex;
+}
+
+.expense-item__price span {
+  cursor: default;
+}
+
+@media (min-width: 580px) {
+  .expense-item__price {
+    font-size: 1.25rem;
+    padding: 0.5rem 1.5rem;
+  }
+}
