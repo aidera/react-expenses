@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-expenses-neon/static/css/main.47c663ab.chunk.css",
+    "main.js": "/react-expenses-neon/static/js/main.85585806.chunk.js",
+    "main.js.map": "/react-expenses-neon/static/js/main.85585806.chunk.js.map",
+    "runtime-main.js": "/react-expenses-neon/static/js/runtime-main.0c2c593f.js",
+    "runtime-main.js.map": "/react-expenses-neon/static/js/runtime-main.0c2c593f.js.map",
+    "static/js/2.a5791468.chunk.js": "/react-expenses-neon/static/js/2.a5791468.chunk.js",
+    "static/js/2.a5791468.chunk.js.map": "/react-expenses-neon/static/js/2.a5791468.chunk.js.map",
+    "index.html": "/react-expenses-neon/index.html",
+    "static/css/main.47c663ab.chunk.css.map": "/react-expenses-neon/static/css/main.47c663ab.chunk.css.map",
+    "static/js/2.a5791468.chunk.js.LICENSE.txt": "/react-expenses-neon/static/js/2.a5791468.chunk.js.LICENSE.txt",
+    "static/media/add.7e07487e.svg": "/react-expenses-neon/static/media/add.7e07487e.svg",
+    "static/media/index.css": "/react-expenses-neon/static/media/bg.173b1cf3.png",
+    "static/media/remove.18a50d9d.svg": "/react-expenses-neon/static/media/remove.18a50d9d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c2c593f.js",
+    "static/js/2.a5791468.chunk.js",
+    "static/css/main.47c663ab.chunk.css",
+    "static/js/main.85585806.chunk.js"
+  ]
+}
